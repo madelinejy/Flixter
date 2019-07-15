@@ -1,1 +1,19 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Volkhov&display=swap');
+
+.navbar {
+	font-family: 'Volkhov', serif;
+	font-weight: 500;
+	box-shadow: 0px 1px 3px #2a2a2a;
+	background: image_url('leaves.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  	font-family: 'Volkhov', serif;
+  	font-weight: 100; 
+  	color: white;	
+}
+
+body {
+	color: #036018;
+}
