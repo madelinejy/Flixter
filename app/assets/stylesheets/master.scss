@@ -11,12 +11,12 @@
 .navbar-light a.navbar-brand {
 	font-family: 'Volkhov', serif;
 	font-weight: 100; 
-	color: white;
+	color: #EDE7DB;
 	font-size: 48px;
 }
 
 .navbar-light .navbar-nav .nav-link{
-	color: white;
+	color: #EDE7DB;
 }
 
 .hero {
@@ -25,7 +25,7 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 370px;
+	height: 450px;
 	box-shadow: 0px 3px 8px #2a2a2a;
 }
 
@@ -35,29 +35,50 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty {
 	background: rgba(0, 0, 0, 0.5);
-	color: white;
+	color: #EDE7DB;
 }
 
 .frosty h1 {
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 100;
 	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+	color: #EDE7DB
 }
 
 .frosty h2 {
 	font-family: "Helvetica Neue", Helvetica;
 	font-weight: 200;
 	text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+	color: #EDE7DB
 }
 
 .btn {
 	border-radius: 0;
-	background-color: #55C2B7;
-	border-color: #55C2B7;
+	background-color: #24838A;
+	border-color: darkslategrey;
+	font-family: 'Volkhov', serif;
+	color: #E5BE7A;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
 	color: black;
 	background-color: white;
 	border-color: white;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h3 {
+	font-family: "Helvetica Neue", Helvetica;
+	font-weight: 200;
+	color: #EDE7DB
+}
+
+body {
+	background: image_url("gray_sand.png");
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
