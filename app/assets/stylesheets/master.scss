@@ -150,5 +150,39 @@ a:hover {
 }
 
 .badge-default {
-	background-color: #24838A
+	background-color: #24838A;
 	}
+.lesson {
+  background: #24838A;
+  margin-top: 10px;
+  height: 100px;
+}
+
+.img {
+  vertical-align: text-bottom;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+.lesson a {
+  color: #E5BE7A;
+  font-size: 25px;
+  font-family: 'Volkhov', serif;
+}
+
+
+
+//b, strong {
+//  font-size: 25px;
+//  font-family: 'Volkhov', serif;
+//}
+
+.lesson a b {
+  font-weight: 100;
+  font-size: 25px;
+}
+
