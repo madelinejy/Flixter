@@ -12,6 +12,7 @@ class LessonsController < ApplicationController
   end
 
   def show
+
   end
 
 	# def require_authorized_for_current_section
@@ -22,8 +23,9 @@ class LessonsController < ApplicationController
   private
 
   def require_authorized_for_current_lesson
-    unless current_user.enrolled_in? @course
-      redirect_to course_enrollments_path, alert: 'You must Enroll before viewing this page'
+    course = current_lesson.section.course
+    unless current_user.enrolled_in?(course)
+      redirect_to course_path(course), alert: 'You must Enroll before viewing this page'
     end
   end
 
